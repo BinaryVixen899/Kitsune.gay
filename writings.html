@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+  
+  body, html
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    /* Below is the navbar style  */
+    ul
+    {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li
+    {
+        padding: 5px;
+        text-align: center;
+        flex:1;  /*I think in order to do this we need like, actual different values */
+        background-color: beige;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+       
+
+    }
+    nav
+    {
+        border-bottom: 1px solid black;
+        margin: 0 0 10px 0;
+
+    }
+    .flexbox
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin: 0;       
+
+    }
+    .verticalflexbox
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+    }
+
+    .storyflexbox
+    {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .verticalflexbox hover
+    {
+        display: none;
+    }
+    div
+    {
+        display: block;
+        margin-top: 45px;
+        border: 1px solid black;
+        text-align: center;
+        box-sizing: border-box;
+        width: 400px;
+        margin-bottom: 15px;
+    
+    }
+    a#writingslink:hover
+    {
+        display: inline-block;
+
+    }
+
+    @media only screen and (max-width: 400px) {
+        div {
+            width: 200px;
+        }
+    }
+
+</style> 
+
+<body>
+    <nav>
+        <ul class="flexbox">
+                <li><a id="homelink" href="mainpage.html">Home</a></li>
+                <li><a id ="writingslink" href="writings.html">Writings</a></li>
+                <li><a id="bloglink" href="Blog.html">Blog</a></li>
+                <li><a id="aboutlink" href="About.html">About</a></li>
+        </ul>
+    </nav>
+<section class="verticalflexbox">
+    <h1>Pick a Universe</h1>
+    <div>
+        <h2>Moon River</h2>
+        <img src="IMG_20150628_203440.jpg" width="300px"></img>
+        <p>Enter</p>
+    </div>
+    <div>
+        <h2>Earth-1218</h2>
+        <img src="Earth1218.jpg" width="300px"></img>
+        <p>Enter</p>
+    </div>
+    <div>
+    <H2>Other Fiction</H2>
+        <img src=""></img>
+        <p></p>
+    </div>
+</section>
+<article class="storyflexbox">
+    <div>
+        <h2>Losing A Pack</h2>
+        <p>A young wolf loses a pack.</p>
+        <a href="Writings/LosingAPack.html">Link</a>
+    </div>
+    <div>
+        <h2>She Lay There Dying
+        </h2>
+        <p>Hikari Cordova-Watanabe watches her former partner die.</p>
+        <a href="Writings/SheLayThereDying.html">Link</a>
+    </div>
+    <div>
+        <h2>Old Friends</h2>
+        <p>Anastasia gets a rude awakening.</p>
+        <a href="Writings/OldFriends.html">Link</a>
+    </div>
+    <div>
+        <h2>Election Night</h2>
+        <p>The trio refreshes the election results, again.</p>
+        <a href="Writings/ElectionNight.html">Link</a>
+    </div>
+    <div>
+        <h2>Look At Me Now</h2>
+        <p>Miko loses her temper.</p>
+        <a href="Writings/LookAtMeNow.html">Link</a>
+    </div>
+    <div>
+        <h2>What The Fuck Is Wrong With You?</h2>
+        <p>Hikari has had enough.</p>
+        <a href="Writings/WhatTheFuckIsWrongWithYou.html">Link</a>
+    </div>
+    <div>
+        <h2>Fussy Wolf, Patient Vamp</h2>
+        <p>And now, for something completely different.</p>
+        <a href="Writings/FussyWolfPatientVamp.html">Link</a>
+    </div>
+    <div>
+        <h2>Sailor Scouts</h2>
+        <p>Texting your best friend in the middle of the night is fun.</p>
+        <a href="Writings/sailorscouts.html">Link</a>
+    </div>
+
+</article>
+</body>
+
+<script>
+    const element = document.get
+</script>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    html 
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    body {
+        margin: 0 0 0 0;
+    }
+
+    p
+    {
+        border: 1px solid black;
+        display: block;
+        /* So I guess I'd have to add this as well */
+        text-align: center;
+        margin: 0px 5px 0px 5px;
+    }
+    nav
+    {
+        border-bottom: 1px solid black;
+        margin: 0 0 10px 0; 
+        /* What does the above even do? */
+    }
+    .navlist
+    {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+
+    }
+    header
+    {
+        text-align: center;
+
+    }
+    h2
+    {
+        text-align: center;
+
+    }
+
+
+    .navlistitem
+    {
+        padding: 5px;
+        flex: 1;  /*I think in order to do this we need like, actual different values */
+        background-color: beige;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .flexbox
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin: 0;       
+
+    }
+    .MainFlexbox
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footerflexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        bottom: 0px;
+        list-style-type: none;
+        padding-left: 0;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-grow: .3;
+        margin-top: 45vh;
+    }
+
+    .footerflexbox > li 
+    {
+        /* padding: 5px; */
+        flex: 1;  /*I think in order to do this we need like, actual different values */
+        
+
+    }
+    .footingflexbox
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    img {
+        object-fit: cover;
+    }
+    a {
+        text-decoration: none;
+    }
+</style>
+
+
+<body>
+<nav>
+<header>
+    <ul class="flexbox navlist">
+            <li class ="navlistitem"><a href="mainpage.html">Home</a></li>
+            <li class="navlistitem"><a href="writings.html">Writings</a></li>
+            <li class="navlistitem"><a href="Blog.html">Blog</a></li>
+            <li class="navlistitem"><a href="About.html">About</a></li>
+    </ul>
+</header>
+</nav>
+    <main class="MainFlexbox">
+        <picture>
+            <img src="./alexandriafin.jpg" width="300px" title="The Vixen Herself" aria-label="Image of a Fox"></img>
+        </picture>
+    <article>
+        <header><h1>About The Fox</h1></header>
+        <p>
+            Alexandria Christina Leal is a public speaker, writer, and activist who lives in Seattle, Washington. <br>
+            She turns Ruby into automation by day and by night she enjoys long walks, tea, and spending time with her Pack. <br> She is life-partnered to her beautiful Alpha.
+        </p>
+    </article>
+    <section>
+    <h2>What's New</h2>
+    <ul>
+        <li> Entirely new site, written by paw by our wonderful foxes!</li>
+        <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li>        
+    </section>
+    </main>
+    <footer class="footingflexbox">
+        <ul class="footerflexbox">
+            <li><a href="https://twitter.com/BinaryVixen899">🐦</a></li>
+            <li><a href="">✍🏽</a></li>
+            <li><a href="https://archiveofourown.org/users/BinaryVixen899">🅰🅾3️⃣</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
