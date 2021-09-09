@@ -13,21 +13,30 @@
     {
         height: 100%;
         width: 100%;
+        /* I should probably like, use a reset here */
+        text-align: center;
     }
 
 
     body {
-        margin: 0 0 0 0;
+        margin: 0;
+        /* Again, key for a reset */
+    }
+    
+
+
+    /* Nav section */
+    .flexbox
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin: 0;       
+
     }
 
-    p
-    {
-        border: 1px solid black;
-        display: block;
-        /* So I guess I'd have to add this as well */
-        text-align: center;
-        margin: 0px 5px 0px 5px;
-    }
     nav
     {
         border-bottom: 1px solid black;
@@ -41,17 +50,7 @@
         text-align: center;
 
     }
-    header
-    {
-        text-align: center;
-
-    }
-    h2
-    {
-        text-align: center;
-
-    }
-
+    
 
     .navlistitem
     {
@@ -63,16 +62,7 @@
         border-top: 1px solid black;
     }
 
-    .flexbox
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: stretch;
-        margin: 0;       
-
-    }
+    /* Content itself */
     .MainFlexbox
     {
         display: flex;
@@ -80,6 +70,25 @@
         align-items: center;
         margin: 0;
     }
+
+    article > p
+    {
+        border: 1px solid black;
+        display: block;
+        /* So I guess I'd have to add this as well */
+        text-align: center;
+        margin: 0px 5px;
+        /* Do these mess things up?  */
+        padding: 5px;
+        /* And should they acutally be on MainFlexbox?  */
+    }
+    .whatsnew{
+        border-bottom: 1px groove black;
+        
+
+    }
+
+    /* Footer */
 
     .footerflexbox {
         display: flex;
@@ -91,7 +100,7 @@
         justify-content: space-evenly;
         text-align: center;
         flex-grow: .3;
-        margin-top: 45vh;
+        margin-top: 20%;
     }
 
     .footerflexbox > li 
@@ -109,12 +118,14 @@
         justify-content: center;
     }
 
+    /* Misc */
     img {
         object-fit: cover;
     }
     a {
         text-decoration: none;
     }
+ 
 </style>
 
 
@@ -130,22 +141,27 @@
 </header>
 </nav>
     <main class="MainFlexbox">
-        <picture>
-            <img src="./alexandriafin.jpg" width="300px" title="The Vixen Herself" aria-label="Image of a Fox"></img>
+        <picture id="foxpicture">
+            <img id="foximage" src="./assets/alexandriafin.jpg" width="300px" title="The Vixen Herself" aria-label="Image of a Fox"></img>
         </picture>
-    <article>
-        <header><h1>About The Fox</h1></header>
-        <p>
-            Alexandria Christina Leal is a public speaker, writer, and activist who lives in Seattle, Washington. <br>
-            She turns Ruby into automation by day and by night she enjoys long walks, tea, and spending time with her Pack. <br> She is life-partnered to her beautiful Alpha.
-        </p>
-    </article>
-    <section>
-    <h2>What's New</h2>
-    <ul>
-        <li> Entirely new site, written by paw by our wonderful foxes!</li>
-        <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li>        
-    </section>
+        <article class="aboutthefox">
+            <header><h1>About The Fox🦊</h1></header>
+            <p>
+                Alexandria Christina Leal is a public speaker, writer, and activist who lives in Seattle, Washington. <br>
+                She turns Ruby into automation by day and by night she enjoys long walks, tea, and spending time with her Pack. <br> She is life-partnered to her beautiful Alpha.
+            </p>
+        </article>
+        <section class="whatsnew">
+            <h2>What's New</h2>
+            <ul>
+                <li> Entirely new site, written by paw by our wonderful foxes!</li>
+                <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li>  
+              
+        </section>
+        <section class="foxinfosection">
+            <header><h1>Fox Tidbits</h1></header>
+            <h5>(Because the 90s were a better time for webrowsing)</h5>
+        </section>
     </main>
     <footer class="footingflexbox">
         <ul class="footerflexbox">

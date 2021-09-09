@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Well, now we know what the above does -->
     <title>Kitsune.Gay</title>
 </head>
-<!-- 360 x 640 -->
+
 <style>
     
     body, html
@@ -17,17 +18,21 @@
         background-color: black;
     }
     
-    .box
+    .articlebox
     {
         display: flex;
         flex-direction: column;
         justify-content: stretch;
         align-items: stretch;
+        height:100%;
+        /* min-width: 800px; with media queries we could do min width 800*/
+        /* Above two are there in case I one day change things, always good to have your defaults */
+        /* A neat thing to do would be to put like. Fireballs below it  */
     }
     
     p 
     {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
         margin-block-start: 0px;
         margin-block-end: 0px;
         text-align: center;
@@ -35,7 +40,7 @@
     }
     h1 
     {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
         margin-block-start: 0px;
         margin-block-end: 0px;
         text-align: center;
@@ -65,13 +70,16 @@
     .sidepanel1
     {
         background-color: black;
-        flex: 1 1 0%;
-        
+        flex: 1 -1 0%;
     }
     .sidepanel2
     {
         background-color: black;
-        flex: 1 1 0%;
+        flex: 1 -1 0%;
+    }
+    footer 
+    {
+
     }
 
 </style>
@@ -80,7 +88,7 @@
 <div class="MainFlexbox">
 <div class=sidepanel1>
 </div> 
-    <article class="box">
+    <article class="articlebox">
         <header style="background-color: firebrick;">
             <h1>狐.Gay</h1>
             
