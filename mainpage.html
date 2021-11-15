@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="moon.js" defer></script>
 </head>
 
 <style>
@@ -100,14 +101,13 @@
         justify-content: space-evenly;
         text-align: center;
         flex-grow: .3;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .footerflexbox > li 
     {
         /* padding: 5px; */
         flex: 1;  /*I think in order to do this we need like, actual different values */
-        
 
     }
     .footingflexbox
@@ -118,6 +118,25 @@
         justify-content: center;
     }
 
+    /* Fox Todbits */
+    .foxtidbits {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .genderflags{
+    }
+
+    .QueerFlags {
+        margin-left: 10px;
+        
+        
+    }
+    .animalsdiv {
+        margin-left: 10px;
+    }
+
+
     /* Misc */
     img {
         object-fit: cover;
@@ -125,6 +144,24 @@
     a {
         text-decoration: none;
     }
+    .icons {
+        height: 22px;
+        width: 22px;
+        display: inline-block;
+    }
+    .foxtidbitswords {
+        display: inline-block
+    }
+
+    .moonbar
+    {
+        padding: 5px;
+        
+    }
+    .moon {
+        opacity: 0.1;
+    }
+    
  
 </style>
 
@@ -155,12 +192,70 @@
             <h2>What's New</h2>
             <ul>
                 <li> Entirely new site, written by paw by our wonderful foxes!</li>
-                <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li>  
-              
+                <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li> 
+               
         </section>
         <section class="foxinfosection">
             <header><h1>Fox Tidbits</h1></header>
             <h5>(Because the 90s were a better time for webrowsing)</h5>
+            <p>This site was recently launched! <img class="icons" src="assets/icons/awoo.svg" alt="wolf_awooing"></p>
+            <article class="foxtidbits">
+                <div class="genderflags">
+                    <img class="icons" src="assets/icons/rainbow_flag.svg" alt= "rainbow_flag">
+                    <img class ="icons" src="assets/icons/transgender_flag.svg" alt="transgender_flag">
+                    <img class ="icons" src="assets/icons/nonbinary_flag.svg" alt="nonbinary_flag">
+                    <img class="icons" src="assets/icons/genderfluid_flag.svg" alt="genderfluid_flag">
+                    <br>
+                </div>
+                <div class=QueerFlags>
+                    <img class="icons" src="assets/icons/aromantic_flag.svg" alt="aromantic_flag"> 
+                    <img class="icons" src="assets/icons/quoiromantic_flag.svg" alt="quoiromantic_flag">
+                    <img class="icons" src="assets/icons/asexual_flag.svg" alt="asexual_flag"> 
+                    <img class="icons" src="assets/icons/polyamory_flag.svg" alt="polyamory_flag">
+                    <br>
+                </div>
+                <div class="animalsdiv">
+                    <img class="icons" src="assets/icons/snow_leopard.svg" alt="snow_leopard">
+                    <img class="icons" src="assets/icons/eastern_dragon.svg" alt="eastern_dragon" style="margin-left: 1px;">
+                    <img class="icons" src="assets/icons/wolf.svg" alt="wolf"> 
+                    <img class ="icons" src="assets/icons/fox.svg" alt="fox">
+                    <br>
+                </div>
+            </article>
+
+            <article class ="species">
+                <p>Current Species: </p>
+
+            </article>
+
+            <article class="pronouns">
+                <p>Current Pronouns: </p>
+                
+            </article>
+
+            <article class ="moonbar">
+                <img class="moon icons" src="assets/icons/moon/new_moon.svg" alt ="new_moon" id ="New Moon">
+                <img class="moon icons" src="assets/icons/moon/crescent_moon_2.svg" alt="crescent_moon_2" id="Waxing Crescent">
+                <img class="moon icons" src="assets/icons/moon/half_moon_2.svg" alt="half_moon_2" id="first_quarter_moon">
+                <img class="moon icons" src="assets/icons/moon/gibbous_moon_2.svg" alt="gibbous_moon_2" id="Waxing Gibbous">
+                <img class="moon icons" src="assets/icons/moon/full_moon.svg" alt="full_moon" id="Full Moon">
+                <img class="moon icons" src="assets/icons/moon/gibbous_moon_1.svg" alt="gibbous_moon_1" id="Waning Gibbous">
+                <img class="moon icons" src="assets/icons/moon/half_moon_1.svg" alt="half_moon_1" id="third_quarter_moon">
+                <img class="moon icons" src="assets/icons/moon/crescent_moon_1.svg" alt="crescent_moon_1" id="Waning Crescent">
+                <img class="moon icons" src="assets/icons/moon/new_moon.svg" alt ="new_moon" id="Dark Moon">
+            </article>
+
+            <article class="spotify">
+                
+
+            </article>
+            <article class="Savannah">
+                
+            </article>
+            
+
+
+            
         </section>
     </main>
     <footer class="footingflexbox">
@@ -170,6 +265,9 @@
             <li><a href="https://archiveofourown.org/users/BinaryVixen899">🅰🅾3️⃣</a></li>
         </ul>
     </footer>
+    <p>This website uses <a href='https://mutant.tech'>Mutant Standard emoji</a>, which are licensed under a <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+
+    
     
 </body>
 </html>
