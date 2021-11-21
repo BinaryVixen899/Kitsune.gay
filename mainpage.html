@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>狐🏳️‍🌈</title>
     <script src="moon.js" defer></script>
 </head>
 
@@ -16,6 +16,7 @@
         width: 100%;
         /* I should probably like, use a reset here */
         text-align: center;
+        font-size: large;
     }
 
 
@@ -88,6 +89,9 @@
         
 
     }
+    .whatsnewlist > li {
+        text-align: left;
+    }
 
     /* Footer */
 
@@ -101,13 +105,14 @@
         justify-content: space-evenly;
         text-align: center;
         flex-grow: .3;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .footerflexbox > li 
     {
         /* padding: 5px; */
         flex: 1;  /*I think in order to do this we need like, actual different values */
+        text-align: center;
 
     }
     .footingflexbox
@@ -156,7 +161,7 @@
     .moonbar
     {
         padding: 5px;
-        
+        margin-bottom: 5%;
     }
     .moon {
         opacity: 0.1;
@@ -190,9 +195,10 @@
         </article>
         <section class="whatsnew">
             <h2>What's New</h2>
-            <ul>
-                <li> Entirely new site, written by paw by our wonderful foxes!</li>
-                <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li> 
+            <ul class="whatsnewlist">
+                <li>Entirely new site, written by paw by our wonderful foxes!</li>
+                <li>Try www.kitsune.gay/system, you may be surprised by what you learn!</li>
+            </ul> 
                
         </section>
         <section class="foxinfosection">
@@ -225,12 +231,13 @@
 
             <article class ="species">
                 <p>Current Species: </p>
+                <p id="speciesbox">Kitsune</p>
 
             </article>
 
             <article class="pronouns">
                 <p>Current Pronouns: </p>
-                
+                <p id="pronounsbox">She/Her</p>
             </article>
 
             <article class ="moonbar">
@@ -250,7 +257,7 @@
 
             </article>
             <article class="Savannah">
-                
+                <a href="https://daemonpage.com/"><image style="height: 200px;" src="savannah.png"></image></a>
             </article>
             
 
@@ -261,7 +268,7 @@
     <footer class="footingflexbox">
         <ul class="footerflexbox">
             <li><a href="https://twitter.com/BinaryVixen899">🐦</a></li>
-            <li><a href="">✍🏽</a></li>
+            <li><a href="https://github.com/BinaryVixen899">💾</a></li>
             <li><a href="https://archiveofourown.org/users/BinaryVixen899">🅰🅾3️⃣</a></li>
         </ul>
     </footer>
