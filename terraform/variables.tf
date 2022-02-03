@@ -81,4 +81,9 @@ variable "honeycomb_pass" {
     sensitive = true
   
 }
+variable "papertrail_pass" {
+    description = "The papertrail password"
+    type = string
+    sensitive = true
+}
 #   may have to add a default value
