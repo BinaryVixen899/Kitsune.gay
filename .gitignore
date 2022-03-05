@@ -6,3 +6,7 @@ terraform/.terraform/providers/registry.terraform.io/fastly/fastly/0.40.0/linux_
 terraform/terraform.tfstate.backup
 terraform/terraform.tfstate
 terraform/.terraform.lock.hcl
+terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/CHANGELOG.md
+terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/LICENSE
+terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/README.md
+terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/terraform-provider-fastly_v1.1.0

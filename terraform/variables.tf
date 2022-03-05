@@ -71,6 +71,7 @@ variable "honeycomb_pass" {
 variable "redirects" {
     type = string
     default = "My Dictionary"
+    
 }
 variable "resourcename" {
   type = string
