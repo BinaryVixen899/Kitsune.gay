@@ -10,3 +10,5 @@ terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_a
 terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/LICENSE
 terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/README.md
 terraform/.terraform/providers/registry.terraform.io/fastly/fastly/1.1.0/linux_amd64/terraform-provider-fastly_v1.1.0
+terraform/terraform.tfstate.1645927802.backup
+terraform/terraform.tfstate.1645927756.backup
