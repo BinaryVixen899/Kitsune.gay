@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Tales From The Fox</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    h2 {text-align: center;}
+    .card {margin: 5mm;}
+    
+  </style>
+
+      <!-- Custom styles for this template -->
+      <link href="starter-template.css" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">public class Binary_Vixen { }</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Presentations.html">Presentations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html">Blog</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Writing.html">Writing <span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<main role="main" class="container">
+    <div class="starter-template">
+    <h1>Profiles</h1>
+    <p>---</p>
+    <p>
+        <blockquote>
+            She paused; row of tiny yellow flames each no bigger than the tip of a pen floating in midair right above the waiting metal rods pausing with her, the soldering dispenser itself hovering next to them like an officer commanding an army, before deciding that ROV was easier on the tongue and continuing the delicate work that she had done countless times in the last month. She grinned as the flames moved closer to the circuit board and the soldering dispenser dropped a precision pinpoint on each spot in a matter of seconds. 
+            Yeah, it was still cool as fuck. 
+            -Hikari Cordova Watanabe in Shipwrecks and Sunbeams 
+        </blockquote>
+        <blockquote>
+            And so the afternoon went; row after row, piece after piece. Not just soldering, of course: Creating, modifying, breaking (Fuck!), discovering, and most of all making, until she should stood there with the setting sun peaking in through the window and stood up to admire the half finished (and half her height, if one were to tip it upside down and set it on its faceplate) dark blue ROV hanging above her primary workbench. 
+
+            -Hikari Cordova Watanabe in Shipwrecks and Sunbeams 
+        </blockquote>
+        <blockquote>
+            She held a clawed digit to her wife’s newly formed black nose, “I’ve made a decision.” She watched as her wife tilted her head, brown hair falling over one of her white ears. She leaned in close, feeling the fur on her wife’s neck as she bent her head forward to whisper in her newly formed ears: <br>
+            “Fuck what the neighbors think”  <br> 
+            Her wife stared back at her, vulpine eyes wide. “You’re sure about this?”<br> 
+            Hikari nodded, “I am.”  <br> 
+
+            -Hikari does some magic in spite of what the neighbors think in Shipwrecks and Sunbeams 
+
+        </blockquote>
+
+        <p>---</p>
+        <h2>
+            Hikari Cordova Watanabe | コルドバー渡辺　光
+        </h2>
+        <h5 id="AliasAndDaemon"> ???</h5>
+        <h5 id="Pronouns">She/Her</h5>
+        <h5 id="Species">Vulpes Transformares</h5>
+        <!-- figure out how to do the actual redaction -->
+        <h5 id="Relations"></h5>
+        <h5 id="Parents">???</h5>
+
+        <p>---</p>
+        <p>
+            Hikari Watanabe had a relatively quiet life growing up. A Kitsune, her interactions with DNS were minimal. Kitsune, as far as the United States Government was concerned; didn't exactly fit into any picture. They didn't shift on the full moon, they didn't turn individuals (did they?), and they use magic not ESP. That made them complicated, and complicated made for frustrating questions and frustrating paperwork. 
+
+        </p>
+        <p>
+            So how did Hikari wind up at DNS? The same way many folks wind up at their jobs. 
+        </p>
+        <p>
+            They don't get accepted at the place they want, and another place offers them interesting work (or any work). And what's more interesting than computing in one of the only government departments that still builds their own stuff? So Hikari joined DNS, and quickly rose through the ranks. Junior, Senior, a shot at Principal. Doing interesting things, fascinating things. Things that were helping, right? Because technology helped, that's what it did. Right?  And working with it made her so happy.  Solving puzzles made her so happy. 
+        </p>
+        <p>
+         
+        <p>
+            And sometime during this, she fell in love with the director of the organization, Alexis. 
+            Shortly thereafter, another stake was driven into her belief that technology was neutral. 
+            New stresses, too. The divide between human and not was very clear to her during that time. 
+            She couldn't escape it, the stares, the judgement. The accusations that she was cheating. Sleeping her way to the top. 
+            She's not exactly sure when it all shattered. But when it did, it hit her hard. She burned out, bad. 
+            She left, and she felt lost. Very, very lost.        
+        </p>
+        <p>
+            So she reinvested in her other hobbies. Building ROVs, researching magic, spending time with those she loved. <br> 
+            Leading a life together. <br> 
+            She hadn't expected that. <br>
+            It helped, she healed. 
+                </p>
+        <p>
+            But Hikari has never forgotten what she built or the effects of it. <br>
+            She's determined to make things better. To build things that helped people. 
+        </p>
+        
+    </p>
+
+
+    
+    
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="./dist/js/bootstrap.bundle.min.js"></script>
+</html>

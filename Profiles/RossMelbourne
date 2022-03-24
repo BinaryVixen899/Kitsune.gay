@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Tales From The Fox</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    h2 {text-align: center;}
+    .card {margin: 5mm;}
+    
+  </style>
+
+      <!-- Custom styles for this template -->
+      <link href="starter-template.css" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">public class Binary_Vixen { }</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Presentations.html">Presentations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html">Blog</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Writing.html">Writing <span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<main role="main" class="container">
+    <div class="starter-template">
+    <h1>Profiles</h1>
+    <p>---</p>
+    <p>
+        <blockquote>
+            "The red headed, brown skinned, 7 foot tall Latina sniper is built like a fucking Amazon and even more impressively with the ability to somehow not stand out which is really quite an accomplishment when your arms and legs could probably break one of the restaurant’s giant wooden support beams in two. All in all, holding her like this feels nice." <br> -Anastasia Romanov on Ross Melbourne 
+        </blockquote>
+        <blockquote>
+            "She was usually quite rapt, head swiveling from one objective to another, movements purposeful and deliberate, nothing left to chance, like some great bird of prey or a vicious big cat. Or, when they were together, energizing, playful, teasing, relaxed. But still with that sharp glint in the back of her eyes, that glint that everytime he caught it, made him feel like she could take him apart like a puzzle in a few strokes, if she had wanted to." <br> -Ryke Summers on Ross Melbourne in Dog Days of Summer
+        </blockquote>
+        <blockquote>
+            “I got tired of your shit, so I took the steps you wouldn’t take. You’re welcome.” <br>
+             -Maya, a few seconds before her best friend would attempt to deck her in Another Fucking Therapy Appointment 
+        </blockquote>
+
+        <p>---</p>
+
+        <h2>
+            Ross Melbourne 
+        </h2>
+        <h5 id="AliasAndDaemon"> FieryRoses</h5>
+        <h5 id="Pronouns">She/her</h5>
+        <h5 id="Species">Homo Sapiens | Homo REDACTED</h5>
+        <!-- figure out how to do the actual redaction -->
+        <h5 id="Relations"></h5>
+        <h5 id="Parents">Admiral, REDACTED && DR. REDACTED</h5>
+        <h5 id ="FPP">Future Patriot Program</h5>
+        <p>
+            It wasn't until years later that Ross would find out that, for the first few years after her mother's death, she had had a nanny. 
+            When she was shot in front of her, Ross would retroactively change the woman's entire life story to ensure her blood never ended up spattered against the apartment wall. 
+        </p>
+        <p>---</p>
+        <p>
+            For years, Ross Melbourne was essentially on her own. Her mother had passed suddenly and tragically when she was young and her father was often deployed god only knew where. Left alone for months on end, Ross learned to fend for herself in every conceivable way save monetarily. Until she made friends with Ryke and Anastasia, her best friends were the library and the BART. Later, after her father's home port became Everett, Washington; a chance conversation led to her realizing that something had always been wrong in her life, a feeling she had had for as long as she could remember. Ross was right about this, in more ways than one. 
+            <br>
+            Delving deep into the seeming impossibility of her childhood, Ross discovered that what had seemed too unrealistic to be true; actually was. 
+            <br>
+            Her father had hired a nanny for many, many years and as far as he had concerned, she had been there for Ross all throughout her childhood. Ross' own memories directly conflicted with this. There had been no nanny, right? Putting her years of studying things far outside the standard curriculum to use, the mystery was revealed. The woman existed, yes. But her life had been rewritten. And that was when she remembered what she had done; and her existence as the fox-jaguar goddess Maya came flooding back…
+        </p>
+        <p>---</p>
+        <p>
+            Discovering you're quite possibly responsible for the creation of the known universe, or at least have the power to create entire universes isn't an easy thing; and newly awakened deities don't often make the best decisions. After reassuring herself with the discovery she had merely rerouted her nanny's life and not erased it entirely; Ross attempted to do the impossible. 
+        </p>
+        <p>
+            Bring back her mother.
+        </p>
+        <p>
+            And that was when she discovered there were fixed points in times. Her mom's death could not be undone in this timeline. She considered swapping to another timeline, replacing a version of herself. But she knew it would end her story here. And she had seen the entire story. She wanted to live it. 
+        </p>
+        <p>
+            Grief stricken, she decided to give everyone else the happy ending that she would never have. 
+        </p>
+        <p>
+            And she nearly accomplished it, before collapsing back in her apartment a mere second after she lept into her bedroom mirror. Could she rewrite all of history? Yes. But the cost would be unimaginable: 
+        </p>
+        <p>
+            Different folks dying at different times, different lives lived. Friends and partners never meeting, parents never having children. Folks she knew, or would know, would blink out of existence. If she went ahead, it would be an entirely different world. 
+        </p>
+        <p>
+            She tried, she really did, but in the end she burned herself out, exhausted her powers, and spent several years viewing the entire thing as a psychotic break; until one night while  sitting at a bus stop outside of a Walgreens on Queen Anne, she turned to her boyfriend with a manic look in her eyes; grabbed his hand, and stepped not onto a bus: but into a portal. 
+        </p>
+        
+        
+    </p>
+
+
+    
+    
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="./dist/js/bootstrap.bundle.min.js"></script>
+</html>
