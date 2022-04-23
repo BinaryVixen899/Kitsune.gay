@@ -1,1 +1,16 @@
 .centered {text-align: center;}
+
+.icons {
+    height: 22px;
+    width: 22px;
+    display: inline;
+}
+#alias {
+    display: inline-block;
+
+}
+
+#daemon,#pronouns,#species,#family, #relations {
+    display: inline-block;
+}
+

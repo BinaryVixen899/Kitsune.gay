@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href ="kitsunegay.css" rel="stylesheet">
+<link href ="/kitsunegay.css" rel="stylesheet">
 
 <style>
     .bd-placeholder-img {
@@ -98,20 +98,23 @@
         </h2>
         <div class="centered">
         <p>---</p>
-        <h5>📧</h5> 
-        <h5 id="alias"> HerbertWestSkeptic/FineWithIceNine</h5>
-        <h5 id="daemonsymbol"></h5>                    
-        <img class="icons" src="assets/icons/daemonpaw.svg" alt="daemonpaw"> 
-        <h5 id="daemon">Sakura </h5>
-        <h5 id="pronounsymbol">
-        <img class="icons" src="assets/icons/pronouns.svg" alt="pronouns"> 
-        <h5 id="Pronouns">She/Her</h5>
-        <h5 id="speciessymbol"></h5>
-        <img class="icons" src="assets/icons/paw.svg" alt="nonhuman"> 
-        <h5 id="Species">Vulpes Transformes | Homo Lupus Sapiens</h5>
-        <h5 id="associationssymbol"></h5>
-        <img class="icons" src="assets/icons/associations.svg" alt="associations"> 
-        <h5 id ="FPP">Future Patriot Program</h5>
+        <h5 class=icons>📧</h5> 
+        <h5 id="alias"> HerbertWestSkeptic/FineWithIceNine</h5> <br>
+        <img class="icons" src="/assets/icons/daemonpaw.svg" alt="daemonpaw"> 
+        <h5 id="daemon">Sakura </h5> <br>
+        <img class="icons" src="/assets/icons/pronouns.svg" alt="pronouns"> 
+        <h5 id="pronouns">She/Her</h5> <br>
+        <img class="icons" src="/assets/icons/paw.svg" alt="nonhuman"> 
+        <h5 id="species">Vulpes Transformes | Homo Lupus Sapiens</h5> <br>
+        <h5 class="icons">❤️</h5>
+        <h5 id="relations">Anastasia Romanov, Ryke Summers (Boyfriend)</h5> <br>
+        <h5 class="icons">👩🏻‍💼👷🏼‍♂️👧🏻👦🏻</h5>
+        <h5 id="family"></h5> <br>
+        <img class="icons" src="/assets/icons/associations.svg" alt="associations"> 
+        <h5 class ="associations">Future Patriot Program</h5>
+        <h5 class ="associations">Department of Nonhuman Services</h5>
+        
+
         <br>
         <p>---</p>
         </div>

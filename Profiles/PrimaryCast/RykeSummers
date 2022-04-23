@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href ="kitsunegay.css" rel="stylesheet">
+<link href ="/kitsunegay.css" rel="stylesheet">
 
 <style>
     .bd-placeholder-img {
@@ -89,28 +89,28 @@
         <h2>
             Ryke Summers
         </h2>
-        <p class="centered">---</p>
-        <h5 id="aliassymbol"></h5>
-        <h5 id="alias"> NoBarkLeftMarf | ?</h5>
-        <h5 id="pronounsymbol">
-        <h5 id="Pronouns">He/They</h5>
-        <h5 id="speciessymbol"></h5>
-        <h5 id="Species">Homo Sapiens | Homo Lupus Sapiens (Husky)</h5>
-        <h5 id="RelationsSymbol"></h5>
-        <h5 id="Relations">Anastasia O'Malley (Girlfriend)</h5>
-        <h5 id="ParentsSymbol"></h5>
-        <h5 id="Parents">Mara Summers & Trent Summers</h5>
-        <h5 id="allegiancessymbol"></h5>
+        <div class="centered">
+        <h5 class="icons">📧</h5> 
+        <h5 id="alias"> NoBarkLeftMarf | ?</h5> <br>
+        <img class="icons" src="/assets/icons/pronouns.svg" alt="pronouns"> 
+        <h5 id="pronouns">He/They</h5> <br>
+        <img class="icons" src="/assets/icons/paw.svg" alt="nonhuman"> 
+        <h5 id="species">Homo Sapiens | Homo Lupus Sapiens (Husky)</h5> <br>
+        <h5 class="icons">❤️</h5>
+        <h5 id="relations">Ross Melbourne (Girlfriend), Anastasia O'Malley (Girlfriend)</h5> <br>
+        <h5 class="icons">👨🏿‍🔬👩🏿‍🦱👧🏿👧🏿</h5>
+        <h5 id="family">Mara Summers & Trent Summers</h5> <br>
+        <img class="icons" src="/assets/icons/associations.svg" alt="associations"> 
         <h5 id ="FPP">Future Patriot Program</h5>
+        <h5 class ="associations">Department of Nonhuman Services</h5>
         <br>
-        <p class="centered">---</p>
-
+        </div>
         <p>
             <!-- MAKE SURE TO PUT HIDDEN TEXT HERE -->
-            Ryke is no stranger to the world around him turning upside down and exposing secrets. A quintessentially American childhood with a white picket fence in the middle of suburbia, 2 siblings, and middle class parents overflowing with wise lessons and unconditional love was interrupted when he found a green stone that changed his life. 
+            Ryke is no stranger to the world around him turning upside down and exposing secrets. A quintessentially American childhood with a white picket fence in the middle of suburbia, 2 siblings, and middle class family overflowing with wise lessons and unconditional love was interrupted when he found a green stone that changed his life. 
             <br>
             <br>
-            The stone transmuted him, literally changed who he was. Ryke went from a normal kid, to a were-husky. After wandering around the neighborhood in dog mode for more hours than he would like to admit, he figured out how to change back. The first thing he did was bring the green gem home to his parents, who hugged him close.
+            The stone transmuted him, literally changed who he was. Ryke went from a normal kid, to a were-husky. After wandering around the neighborhood in dog mode for more hours than he would like to admit, he figured out how to change back. The first thing he did was bring the green gem home to his family, who hugged him close.
         </p>
         <p>
             His dad, a chemist, worked for months to analyze its properties, and Ryke took time to hone his abilities and explore the world. He learned quickly how to go from one form to another, how to add bipedality to that, and even how to keep his shifts to ears and a tail (the former cleverly tucked under a hat). Realizing that being a were-husky gave him the ability to explore more than he had ever done before, Ryke roamed the entirety of Lynnwood; and beyond. 
