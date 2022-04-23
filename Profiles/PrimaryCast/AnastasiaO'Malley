@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href ="kitsunegay.css" rel="stylesheet">
 
 <style>
     .bd-placeholder-img {
@@ -65,7 +66,6 @@
 <main role="main" class="container">
     <div class="starter-template">
     <h1>Profiles</h1>
-    <p>---</p>
     <p>
         <blockquote>
             “Wait! Wait! I take it back, I’ll go to the dentist. You said you’d stay off Twitter!” <br>
@@ -90,19 +90,28 @@
             Anastasia felt the weight of a pistol in her hand, thumbed it to make sure the safety was off, then raised it and shot the man in the head. <br>
             “Okay.” <br>
             -Anastasia kills a man in Another Fucking Therapy Appointment
-            
-            
         </blockquote>
+        <br>
 
-        <p>---</p>
         <h2>
             Anastasia O' Malley 
         </h2>
-        <h5 id="AliasAndDaemon"> HerbertWestSkeptic/FineWithIceNine | Sakura </h5>
-        <h5 id="Pronouns">She/Her</h5>
-        <h5 id="Species">Vulpes Transformes | Homo Lupus Sapiens</h5>
-        <h5 id ="FPP">Future Patriot Program</h5>
+        <div class="centered">
         <p>---</p>
+        <h5>📧</h5> 
+        <h5 id="alias"> HerbertWestSkeptic/FineWithIceNine</h5>
+        <h5 id="daemonsymbol"></h5>
+        <h5 id="daemon">Sakura </h5>
+        <h5 id="pronounsymbol">
+        <h5 id="Pronouns">She/Her</h5>
+        <h5 id="speciessymbol"></h5>
+        <h5 id="Species">Vulpes Transformes | Homo Lupus Sapiens</h5>
+        <h5 id="allegiancessymbol"></h5>
+        <h5 id ="FPP">Future Patriot Program</h5>
+        <br>
+        <p>---</p>
+        </div>
+
         <p>
             One of three children born to her mother and father, Anastasia grew up with her head in a book. 
             Most of the time, it was better than the world around her. Before dysphoria kicked in, Anastasia had to contend with her father's yelling, her mother's yelling back, her sibling's own ways of dealing; and her constant, unyielding depression. 

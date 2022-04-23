@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href ="kitsunegay.css" rel="stylesheet">
 
 <style>
     .bd-placeholder-img {
@@ -65,7 +66,6 @@
 <main role="main" class="container">
     <div class="starter-template">
     <h1>Profiles</h1>
-    <p>---</p>
     <p>
         <blockquote>
             NoBarkLeftMarf: you. are adorable. <br>
@@ -84,18 +84,27 @@
             -I Have Trouble Trusting You Motherfuckers 
 
         </blockquote>
-
-        <p>---</p>
+        <br>
 
         <h2>
             Ryke Summers
         </h2>
-        <h5 id="AliasAndDaemon"> NoBarkLeftMarf | ?</h5>
+        <p class="centered">---</p>
+        <h5 id="aliassymbol"></h5>
+        <h5 id="alias"> NoBarkLeftMarf | ?</h5>
+        <h5 id="pronounsymbol">
         <h5 id="Pronouns">He/They</h5>
+        <h5 id="speciessymbol"></h5>
         <h5 id="Species">Homo Sapiens | Homo Lupus Sapiens (Husky)</h5>
+        <h5 id="RelationsSymbol"></h5>
         <h5 id="Relations">Anastasia O'Malley (Girlfriend)</h5>
+        <h5 id="ParentsSymbol"></h5>
         <h5 id="Parents">Mara Summers & Trent Summers</h5>
+        <h5 id="allegiancessymbol"></h5>
         <h5 id ="FPP">Future Patriot Program</h5>
+        <br>
+        <p class="centered">---</p>
+
         <p>
             <!-- MAKE SURE TO PUT HIDDEN TEXT HERE -->
             Ryke is no stranger to the world around him turning upside down and exposing secrets. A quintessentially American childhood with a white picket fence in the middle of suburbia, 2 siblings, and middle class parents overflowing with wise lessons and unconditional love was interrupted when he found a green stone that changed his life. 

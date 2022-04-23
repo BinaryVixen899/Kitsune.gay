@@ -12,6 +12,8 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href ="kitsunegay.css" rel="stylesheet">
+
 
 <style>
     .bd-placeholder-img {
@@ -65,10 +67,15 @@
 <main role="main" class="container">
     <div class="starter-template">
     <h1>Profiles</h1>
-        <h5 id="AliasAndDaemon"> If he has one, he doesn't talk to them. </h5>
+        <h5 id="daemonsymbol"></h5>
+        <h5 id="daemon"> If he has one, he doesn't talk to them. </h5>
+        <h5 id="pronounsymbol">
         <h5 id="Pronouns">He/Him</h5>
+        <h5 id="speciessymbol"></h5>
         <h5 id="Species">Homo Sapiens</h5>
+        <h5 id="RelationsSymbol"></h5>
         <h5 id="Relations">Alexis Cordova-Watanabe (Daughter), ??? (Daughter), Hikari Cordova-Watanabe (Daughter In Law)</h5>
+        <h5 id="ParentsSymbol"></h5>
         <h5 id="Parents">???</h5>
     <p>---</p>
     <p>

@@ -12,6 +12,8 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href ="kitsunegay.css" rel="stylesheet">
+
 
 <style>
     .bd-placeholder-img {
@@ -77,10 +79,14 @@
         <h2>
             Anastasia Romanov | Анастасия Николаевна Романова 
         </h2>
-        <h5 id="AliasAndDaemon"> ???</h5>
+        <h5 id="aliassymbol"></h5>
+        <h5 id="alias"> ???</h5>
+        <h5 id="pronounsymbol">
         <h5 id="Pronouns">She/Her</h5>
+        <h5 id="speciessymbol"></h5>
         <h5 id="Species">Homo Sapiens*</h5>
         <!-- figure out how to do the actual redaction -->
+        <h5 id="RelationsSymbol"></h5>
         <h5 id="Relations">Anastasia O'Malley (Girlfriend)</h5>
         <!-- <h5 id="Parents">#put her actual parents</h5> -->
 

@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href ="kitsunegay.css" rel="stylesheet">
 
 <style>
     .bd-placeholder-img {
@@ -91,11 +92,16 @@
         <h2>
             Hikari Cordova Watanabe | コルドバー渡辺　光
         </h2>
-        <h5 id="AliasAndDaemon"> ???</h5>
+        <h5 id="aliassymbol"></h5>
+        <h5 id="alias"> ???</h5>
+        <h5 id="pronounsymbol">
         <h5 id="Pronouns">She/Her</h5>
+        <h5 id="speciessymbol"></h5>
         <h5 id="Species">Vulpes Transformares</h5>
         <!-- figure out how to do the actual redaction -->
+        <h5 id="RelationsSymbol"></h5>
         <h5 id="Relations"></h5>
+                <h5 id="ParentsSymbol"></h5>
         <h5 id="Parents">???</h5>
 
         <p>---</p>
