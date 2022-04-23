@@ -100,13 +100,17 @@
         <p>---</p>
         <h5>📧</h5> 
         <h5 id="alias"> HerbertWestSkeptic/FineWithIceNine</h5>
-        <h5 id="daemonsymbol"></h5>
+        <h5 id="daemonsymbol"></h5>                    
+        <img class="icons" src="assets/icons/daemonpaw.svg" alt="daemonpaw"> 
         <h5 id="daemon">Sakura </h5>
         <h5 id="pronounsymbol">
+        <img class="icons" src="assets/icons/pronouns.svg" alt="pronouns"> 
         <h5 id="Pronouns">She/Her</h5>
         <h5 id="speciessymbol"></h5>
+        <img class="icons" src="assets/icons/paw.svg" alt="nonhuman"> 
         <h5 id="Species">Vulpes Transformes | Homo Lupus Sapiens</h5>
-        <h5 id="allegiancessymbol"></h5>
+        <h5 id="associationssymbol"></h5>
+        <img class="icons" src="assets/icons/associations.svg" alt="associations"> 
         <h5 id ="FPP">Future Patriot Program</h5>
         <br>
         <p>---</p>
