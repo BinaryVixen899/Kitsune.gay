@@ -1,0 +1,34 @@
+.centered {text-align: center;}
+
+.icons {
+    height: 22px;
+    width: 22px;
+    display: inline;
+}
+#alias {
+    display: inline-block;
+
+}
+
+#daemon,#pronouns,#species,#family, #relations {
+    display: inline-block;
+}
+
+.redacted span {
+    position: relative;
+    white-space: pre;
+}
+
+.redacted span::after  {    
+      background: black;
+      border-radius: 0.1em;
+      box-shadow: 0 0 1px rgba(0,0,0,0.35);
+      content: " ";
+      width: 100%;
+      height: 1.2em;
+      left: 0;
+      position: absolute;
+      color: green;
+      transform: skewY(-5deg) rotate(5deg);
+}
+
