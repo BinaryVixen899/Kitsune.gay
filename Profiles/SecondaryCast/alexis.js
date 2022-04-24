@@ -2,6 +2,7 @@ window.onload() = function() {
     random
 }
 
+function alexischoose() {
 const {
     randomInt
 } = await import('crypto');
@@ -12,8 +13,9 @@ const {
     if (n == 2)  {
        var elem = document.getElementById(laurieplayer)
        elem.removeAttribute(hidden)
-        
+
     }
   });
+}
 
   
