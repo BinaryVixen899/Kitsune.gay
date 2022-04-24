@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href ="kitsunegay.css" rel="stylesheet">
+<link href ="/kitsunegay.css" rel="stylesheet">
 
 
 <style>
@@ -71,26 +71,37 @@
     
     <p>
         <blockquote>
+          <p>
             She glanced around in the dark. The tennis shoes were still there. Wait, at the end of the; oh, that was a baseball bat, not a tail. She still couldn’t see anything with the glare from the light. Ugh. Why was she doing it this way to begin with? They could both see in the dark. Perhaps it was simply her humanity, somewhere at the back of her mind one of those basic truisms lurked; “Do not, under any circumstances, be alone in a room with a wolf. And if you are alone in a room with a wolf, do not, under any circumstances, have that room be a dark one.”
+          <strong>-Anastasia roots around under the bed in <i>Fussy Wolf, Patient Vamp</i></strong> 
+          </p>            
             <!-- #correct link  -->
-            https://www.kitsune.gay/Writings/FussyWolfPatientVamp.html
+            
         </blockquote>
-        <p>---</p>
         <h2>
             Anastasia Romanov | Анастасия Николаевна Романова 
         </h2>
-        <h5 id="aliassymbol"></h5>
-        <h5 id="alias"> ???</h5>
-        <h5 id="pronounsymbol">
-        <h5 id="Pronouns">She/Her</h5>
-        <h5 id="speciessymbol"></h5>
-        <h5 id="Species">Homo Sapiens*</h5>
-        <!-- figure out how to do the actual redaction -->
-        <h5 id="RelationsSymbol"></h5>
-        <h5 id="Relations">Anastasia O'Malley (Girlfriend)</h5>
-        <!-- <h5 id="Parents">#put her actual parents</h5> -->
+        <div class="centered">
+          
+          <img class="icons" src="/assets/icons/pronouns.svg" alt="pronouns"> 
+          <h5 id="pronouns">She/Her</h5> <br>
+          <img class="icons" src="/assets/icons/paw.svg" alt="nonhuman"> 
+          <h5 id="species">Homo Sapiens*</h5> <br>
+          <!-- figure out how to do the actual redaction -->
+          <h5 class="icons">❤️</h5>
+          <h5 id="relations">Anastasia O'Malley (Girlfriend)</h5> <br>
+          <h5 class="icons">🪦🤴🏼🪦👸🏼🪦👑👧🏼👧🏼👧🏼🪦👑👦🏼</h5> <br> 
+          <img class="icons" src="/assets/icons/associations.svg" alt="associations"> 
+          <h5 class ="associations">The House of Romanov</h5>
+          <h5 class ="associations"> The Russian Empire | Россійская Имперія</h5>
 
-        <p>---</p>
+
+
+          <!-- <h5 id="family">#put her actual family</h5> -->
+  
+          <p>---</p>
+        </div>
+
         <p>
             Anastasia Romanov was supposed to die in a basement in Yekaterinburg, but that didn't happen. So she was supposed to die after her and two of her sisters were discovered alive in the truck that carried the corpses of their family; but yet again, she failed to die. One can presume that the third place she was supposed to die was lying in the snow, freezing to death and bleeding out. 
 
