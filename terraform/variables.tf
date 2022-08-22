@@ -98,6 +98,15 @@ variable "snippets" {
 
 }
 
+variable "main_vcl" {
+    type = object({
+        content = string
+        main = bool
+        name = string
+    })
+        
+}
+
 # locals { 
 # backends = defaults(var.backends, [ {
 #       address = "value"
