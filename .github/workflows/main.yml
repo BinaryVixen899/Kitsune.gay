@@ -34,7 +34,7 @@ jobs:
         name: S3 Bucket 1 Upload
 
         with:
-            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*'
+            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*' --exclude '.vscode/*'
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -51,7 +51,7 @@ jobs:
           name: S3 Bucket 2 Upload
 
           with:
-            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*'
+            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*' --exclude '.vscode/*'
           env:
             AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET1 }}
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -67,7 +67,7 @@ jobs:
           name: S3 Bucket 3 Upload
 
           with:
-            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*'
+            args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'package*' --exclude 'terraform/*'  --exclude '.vscode/*'
           env:
             AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET2 }}
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
