@@ -100,14 +100,6 @@ resource "fastly_service_vcl" "kitsunegay_fastly_vcl" {
       # Okay so this works but there are better solutions
     }
     
-    logging_papertrail {
-      address = "logs3.papertrailapp.com"
-      format = "{\n    \"timestamp\": \"%%{strftime(\\{\"%Y-%m-%dT%H:%M:%S%z\"\\}, time.start)}V\",\n    \"client_ip\": \"%%{req.http.Fastly-Client-IP}V\",\n    \"geo_country\": \"%%{client.geo.country_name}V\",\n    \"geo_city\": \"%%{client.geo.city}V\",\n    \"host\": \"%%{if(req.http.Fastly-Orig-Host, req.http.Fastly-Orig-Host, req.http.Host)}V\",\n    \"url\": \"%%{json.escape(req.url)}V\",\n    \"request_method\": \"%%{json.escape(req.method)}V\",\n    \"request_protocol\": \"%%{json.escape(req.proto)}V\",\n    \"request_referer\": \"%%{json.escape(req.http.referer)}V\",\n    \"request_user_agent\": \"%%{json.escape(req.http.User-Agent)}V\",\n    \"response_state\": \"%%{json.escape(fastly_info.state)}V\",\n    \"response_status\": %%{resp.status}V,\n    \"response_reason\": %%{if(resp.response, \"%22\"+json.escape(resp.response)+\"%22\", \"null\")}V,\n    \"response_body_size\": %%{resp.body_bytes_written}V,\n    \"fastly_server\": \"%%{json.escape(server.identity)}V\",\n    \"fastly_is_edge\": %%{if(fastly.ff.visits_this_service == 0, \"true\", \"false\")}V\n  }"
-      format_version = 2
-      name = "Papertrail"
-      port = "14838"
-      # Again, this works but there are better solutions 
-    }
     
     request_setting {
       action = ""
@@ -148,7 +140,7 @@ resource "fastly_service_vcl" "kitsunegay_fastly_vcl" {
 
     
     vcl {
-      content = var.main_vcl["content"]
+      content = local.content
       main = var.main_vcl["main"]
       name = var.main_vcl["name"]
     }
@@ -179,4 +171,8 @@ resource "fastly_service_dictionary_items" "kitsunegay_fastly_vcl_dictionary" {
     "/maddie" : "https://youtu.be/_hjRvZYkAgA?t=422"
 
   }
+}
+
+locals {
+  content = "${file("${path.module}/kitsune_gay.vcl")}"
 }
