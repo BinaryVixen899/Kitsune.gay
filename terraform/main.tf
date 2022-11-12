@@ -223,8 +223,8 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_writings_main_vcl
     "/writings/fussywolfpatientvamp.html": "www.kitsune.gay/writings",
     "/writings/sailorscouts.html": "www.kitsune.gay/writings",
     "/writings/vaccination.html": "www.kitsune.gay/writings",
-    "/writings/i%20have%20trouble%20trusting%20you%20motherfuckers.html": "www.kitsune.gay/writings",
-    "/writings/another%20fucking%20therapy%20appointment.html": "www.kitsune.gay/writings"
+    "/writings/ihavetroubletrustingyoumotherfuckers.html": "www.kitsune.gay/writings",
+    "/writings/anotherfuckingtherapyappointment.html": "www.kitsune.gay/writings"
   }
 }
 
