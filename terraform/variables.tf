@@ -86,8 +86,6 @@ variable "sitemap_writing_stories" {
 }
 variable "sitemap_profiles" {
     type = bool
-    default = "My Dictionary"
-    
 }
 
 variable "resourcename" {
