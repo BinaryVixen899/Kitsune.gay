@@ -73,6 +73,19 @@ variable "redirects" {
     default = "My Dictionary"
     
 }
+
+variable "sitemap_main" {
+    type = string
+    default = "My Dictionary"
+    
+}
+
+variable "sitemap_writing_stories" {
+    type = string
+    default = "My Dictionary"
+    
+}
+
 variable "resourcename" {
   type = string
 }

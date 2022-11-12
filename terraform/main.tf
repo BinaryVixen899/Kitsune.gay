@@ -48,6 +48,15 @@ resource "fastly_service_vcl" "kitsunegay_fastly_vcl" {
       name = var.redirects
       write_only = false
     }
+
+  
+  dictionary {
+    name = var.sitemap_main
+  }
+  
+  dictionary {
+    name = var.sitemap_writing_stories
+  }
   
 
   domain {
@@ -156,6 +165,7 @@ resource "fastly_service_dictionary_items" "kitsunegay_fastly_vcl_dictionary" {
   }
   service_id = fastly_service_vcl.kitsunegay_fastly_vcl.id
   dictionary_id = each.value.dictionary_id
+  manage_items  = true
   items = {
     "/alexandria" : "https://www.notion.so/vixenlibrary/Who-is-Alexandria-cc34a3d079e347c585b085364958949c"
     "/ellen" : "https://vixenlibrary.notion.site/Who-Is-Ellen-4fcfe4ea5dde416cbaaa473adbaa3893"
@@ -172,6 +182,52 @@ resource "fastly_service_dictionary_items" "kitsunegay_fastly_vcl_dictionary" {
 
   }
 }
+
+resource "fastly_service_dictionary_items" "kitsunegay_sitemap_main_vcl_dictionary" {
+  
+  
+  for_each = {
+    for d in fastly_service_vcl.kitsunegay_fastly_vcl.dictionary : d.name => d if d.name == var.sitemap_main
+  }
+  service_id = fastly_service_vcl.kitsunegay_fastly_vcl.id
+  dictionary_id = each.value.dictionary_id
+  manage_items  = true
+  items = {
+    "/main": "www.kitsune.gay",
+    "/writing.html": "www.kitsune.gay",
+    "/blog.html": "www.kitsune.gay",
+    "/presentations.html": "www.kitsune.gay",
+    #sitemap writing starts here
+    "/schedule.html": "www.kitsune.gay",
+    "/cast.html": "www.kitsune.gay",
+    "/": "www.kitsune.gay",
+    "/index.html": "www.kitsune.gay"
+  }
+}
+
+resource "fastly_service_dictionary_items" "kitsunegay_sitemap_writings_main_vcl_dictionary" {
+  
+  
+  for_each = {
+    for d in fastly_service_vcl.kitsunegay_fastly_vcl.dictionary : d.name => d if d.name == var.sitemap_writing_stories
+  }
+  service_id = fastly_service_vcl.kitsunegay_fastly_vcl.id
+  dictionary_id = each.value.dictionary_id
+  manage_items  = true
+  items = {
+    "/writings/losingapack.html": "www.kitsune.gay/writings",
+    "/writings/shelaytheredying.html": "www.kitsune.gay/writings",
+    "/writings/oldfriends.html": "www.kitsune.gay/writings",
+    "/writings/electionnight.html":"www.kitsune.gay/writings",
+    "/writings/lookatmenow.html": "www.kitsune.gay/writings",
+    "/writings/fussywolfpatientvamp.html": "www.kitsune.gay/writings",
+    "/writings/sailorscouts.html": "www.kitsune.gay/writings",
+    "/writings/vaccination.html": "www.kitsune.gay/writings",
+    "/writings/i%20have%20trouble%20trusting%20you%20motherfuckers.html": "www.kitsune.gay/writings",
+    "/writings/another%20fucking%20therapy%20appointment.html": "www.kitsune.gay/writings"
+  }
+}
+
 
 locals {
   content = "${file("${path.module}/kitsune_gay.vcl")}"
