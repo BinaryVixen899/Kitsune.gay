@@ -201,7 +201,8 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_main_vcl_dictiona
     "/schedule.html": "www.kitsune.gay",
     "/cast.html": "www.kitsune.gay",
     "/": "www.kitsune.gay",
-    "/index.html": "www.kitsune.gay"
+    "/index.html": "www.kitsune.gay",
+    "/alexandriafin.jpg": "www.kitsune.gay"
   }
 }
 
