@@ -84,10 +84,11 @@ variable "sitemap_writing_stories" {
     default = "My Dictionary"
     
 }
+
 variable "sitemap_profiles" {
-    type = bool
-    default = true
-    description = "value"
+    type = string
+    default = "sitemap_profiles"
+
 }
 
 variable "resourcename" {

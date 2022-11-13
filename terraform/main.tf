@@ -57,6 +57,10 @@ resource "fastly_service_vcl" "kitsunegay_fastly_vcl" {
   dictionary {
     name = var.sitemap_writing_stories
   }
+
+  dictionary {
+    name = var.sitemap_profiles
+  }
   
 
   domain {
@@ -240,18 +244,18 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_profiles_vcl_dict
   dictionary_id = each.value.dictionary_id
   manage_items  = true
   items = {
-    "rykesummers.html": true,
-    "rossmelbourne.html": true,
-    "anastasiaomalley.html": true,
-    "anastasiaromanov.html": true,
-    "hikaricordova-watanabe.html": true,
-    "alexiscordova-watanabe.html": true,
-    "alexis.js": true,
-    "christophsisosullivan.html": true,
-    "persnickety.html": true,
-    "billtrilby.html": true, 
-    "michaelcordova.html": true,
-    "mikochiyoni.html": true
+    "rykesummers.html": "true",
+    "rossmelbourne.html": "true"
+     "anastasiaomalley.html": "true",
+     "anastasiaromanov.html": "true",
+     "hikaricordova-watanabe.html": "true",
+     "alexiscordova-watanabe.html": "true",
+     "alexis.js": "true",
+     "christophsisosullivan.html": "true",
+     "persnickety.html": "true",
+     "billtrilby.html": "true", 
+     "michaelcordova.html": "true",
+     "mikochiyoni.html": "true"
   }
 }
 
