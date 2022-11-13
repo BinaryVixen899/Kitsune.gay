@@ -86,6 +86,8 @@ variable "sitemap_writing_stories" {
 }
 variable "sitemap_profiles" {
     type = bool
+    default = true
+    description = "value"
 }
 
 variable "resourcename" {

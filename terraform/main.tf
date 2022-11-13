@@ -230,7 +230,7 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_writings_main_vcl
 }
 
 
-resource "fastly_service_dictionary_items" "kitsunegay_sitemap_profiles_vcl_dictionary " {
+resource "fastly_service_dictionary_items" "kitsunegay_sitemap_profiles_vcl_dictionary" {
   
   
   for_each = {
