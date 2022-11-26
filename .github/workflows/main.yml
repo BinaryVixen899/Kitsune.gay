@@ -88,6 +88,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Fastly
         run: |
+           curl https://github.com/fastly/cli/releases/download/v4.3.0/fastly_4.3.0_linux_386.deb --output fastly_4.3.0_linux_386.deb
            sudo apt install ./fastly_*_linux_amd64.deb
 
       - name: Purge
