@@ -92,6 +92,7 @@ jobs:
              echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /home/runner/.bash_profile
              echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/runner/.bash_profile
              eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+             brew --version
       - name: Install Fastly
         run: |
            brew install fastly/tap/fastly
