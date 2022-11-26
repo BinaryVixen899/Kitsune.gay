@@ -87,8 +87,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: report results
-        run: echo ${{needs.job1.outputs.output1}}
-        
+        run: echo ${{needs.AWSUpload.outputs.output1}}
+
       # - name: Install Fastly
       #   run: |
       #      curl -L https://github.com/fastly/cli/releases/download/v4.3.0/fastly_4.3.0_linux_amd64.deb > fastly_4.3.0_linux_amd64.deb
