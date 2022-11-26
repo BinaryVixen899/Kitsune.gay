@@ -91,6 +91,12 @@ variable "sitemap_profiles" {
 
 }
 
+variable "sitemap_emoji" {
+    type = string
+    default = "sitemap_emoji"
+
+}
+
 variable "resourcename" {
   type = string
 }

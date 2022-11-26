@@ -61,6 +61,10 @@ resource "fastly_service_vcl" "kitsunegay_fastly_vcl" {
   dictionary {
     name = var.sitemap_profiles
   }
+
+  dictionary {
+    name = var.sitemap_emoji
+  }
   
 
   domain {
@@ -207,6 +211,7 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_main_vcl_dictiona
     "/": "www.kitsune.gay",
     "/index.html": "www.kitsune.gay",
     "/alexandriafin.jpg": "www.kitsune.gay"
+    "/kitsunegay.css": "www.kitsune.gay"
   }
 }
 
@@ -258,6 +263,26 @@ resource "fastly_service_dictionary_items" "kitsunegay_sitemap_profiles_vcl_dict
      "mikochiyoni.html": "true"
   }
 }
+
+resource "fastly_service_dictionary_items" "kitsunegay_sitemap_emoji_vcl_dictionary" {
+  
+  
+  for_each = {
+    for d in fastly_service_vcl.kitsunegay_fastly_vcl.dictionary : d.name => d if d.name == var.sitemap_emoji
+  }
+  service_id = fastly_service_vcl.kitsunegay_fastly_vcl.id
+  dictionary_id = each.value.dictionary_id
+  manage_items  = true
+  items = {
+  "associations.svg": "true",
+  "pronouns.svg": "true",
+  "human.svg": "true",
+  "daemonpaw.svg": "true",
+  "relations.svg": "true", 
+  "paw.svg": "true"
+  }
+}
+
 
 
 
