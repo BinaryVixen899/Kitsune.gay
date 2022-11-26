@@ -96,6 +96,7 @@ jobs:
              brew install fastly/tap/fastly
       - name: Purge
         run: |
+            cat /home/runner/.bash_profile
             fastly purge --token=${{ secrets.FASTLY_PURGE_TOKEN }} --service-id=${{ secrets.SERVICE_ID }} --url=https://www.Kitsune.gay/Writing.html
             fastly purge --token=${{ secrets.FASTLY_PURGE_TOKEN }} --service-id=${{ secrets.SERVICE_ID }} --url=https://www.Kitsune.gay/Cast.html
 
